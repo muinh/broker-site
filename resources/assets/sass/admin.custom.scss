@@ -1,0 +1,13 @@
+.nav-custom {
+  display: flex;
+  margin: 0px 0;
+}
+
+.nav-custom > li > a {
+  border-bottom: 3px solid transparent;
+}
+
+.nav-custom > li.active > a, .nav-custom > li.active > a:focus, .nav-custom > li.active > a:hover {
+  border-bottom: 3px solid #38aff1;
+  background-color: rgba(199, 199, 199, 0.13);
+}

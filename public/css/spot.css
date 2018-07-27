@@ -1,0 +1,1054 @@
+@media (min-width: 320px) and (max-width: 990px) {
+  .container {
+    max-width: 100% !important;
+  }
+
+  #spotPackageContainer_myAccount .navigationSidebar {
+    width: 100% !important;
+    margin-bottom: 10px !important;
+    cursor: pointer;
+  }
+
+  #spotPackageContainer_myAccount .allZonesContainer {
+    width: 100% !important;
+  }
+
+  .depositIframe1 {
+    width: 100% !important;
+  }
+
+  #spotPackageContainer_myAccount {
+    width: 99% !important;
+  }
+
+  .hide-item {
+    display: none !important;
+  }
+
+  .show-item {
+    display: block !important;
+  }
+
+  .sandwich {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 11px;
+    right: 15px;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .sandwich-close {
+    background-image: url(/images/download.png) !important;
+  }
+
+  .sandwich-open {
+    background-image: url(/images/52944-200.png) !important;
+    width: 30px;
+    height: 30px;
+  }
+
+  .positionsFilter div {
+    width: 100%;
+  }
+
+  .zoneContainer_positions .positionsFilter {
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  #positionsOverviewNav .positionStatusTab .bgEnd {
+    width: 8px !important;
+  }
+
+  #positionsOverviewNav .positionStatusTab .bgStart {
+    padding-left: 8px !important;
+  }
+
+  .zoneContainer_positions .noTradingMessage {
+    padding: 80px 20px !important;
+  }
+
+  .zoneContainer_positions .position.forexPosition .riskIndicatorTool {
+    width: 235px !important;
+    margin: 0 auto !important;
+    float: none !important;
+  }
+
+  .zoneContainer_positions .position.forexPosition .positionTools {
+    width: 100% !important;
+  }
+
+  .zoneContainer_positions .order .toolDesc,
+  .zoneContainer_positions .position .toolDesc {
+    border-top-width: 0 !important;
+  }
+
+  .zoneContainer_positions .position.forexPosition .toolDesc.addBalance {
+    margin-right: 0 !important;
+  }
+
+  .position {
+    border-bottom: 1px solid #ccc !important;
+    padding: 10px 15px !important;
+  }
+
+  .position thead {
+    display: none;
+  }
+
+  .positionRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .positionsDetails {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto !important;
+  }
+
+  .positionRow > td {
+    height: auto !important;
+    max-width: 100% !important;
+    width: 33% !important;
+    position: relative;
+    background: #fff !important;
+  }
+
+  .expanded .positionRow td,
+  .expanded .positionRow,
+  .position.expanded {
+    background: #eee !important;
+  }
+
+  .positionRow .positionId:before {
+    content: 'ID: ';
+    font-weight: bold;
+    color: #444;
+  }
+
+  .positionRow > td.investment:before {
+    content: 'Investment: ';
+    font-weight: bold;
+    color: #444;
+  }
+
+  .positionRow > td.tradeResult:before {
+    content: 'Result: ';
+    font-weight: bold;
+    color: #444;
+  }
+
+  .positionRow > td.strikeRate:before {
+    content: 'Strike rate: ';
+    font-weight: bold;
+    color: #444;
+  }
+
+  .positionRow > td.currentRate:before {
+    content: 'Current rate: ';
+    font-weight: bold;
+    color: #444;
+  }
+
+  .positionRow > td.asset:before {
+    content: 'Asset: ';
+    font-weight: bold;
+    color: #444;
+  }
+
+  .positionRow > td.startDate:before {
+    content: 'Start date: ';
+    font-weight: bold;
+    color: #444;
+  }
+
+  .positionRow > td.contractAndRate .contract:before {
+    content: 'Contract: ';
+    font-weight: bold;
+    color: #444;
+  }
+
+  .positionRow > td.contractAndRate .entryRate1:before {
+    content: 'Entry rate: ';
+    font-weight: bold;
+    color: #444;
+  }
+
+  .positionRow > td.expiryDate:before {
+    content: 'Expiry date: ';
+    font-weight: bold;
+    color: #444;
+  }
+
+  .positionRow > td .stopLoss:before {
+    content: 'Stop loss: ';
+    font-weight: bold;
+    color: #444;
+  }
+
+  .positionRow > td .stopLossRate:before {
+    content: 'Stop loss rate: ';
+    font-weight: bold;
+    color: #444;
+  }
+
+  .positionRow > td .takeProfit:before {
+    content: 'Take profit: ';
+    font-weight: bold;
+    color: #444;
+  }
+
+  .positionRow > td .takeProfitRate:before {
+    content: 'Take profit rate: ';
+    font-weight: bold;
+    color: #444;
+  }
+
+  .positionRow > td.profit:before {
+    content: 'Profit: ';
+    font-weight: bold;
+    color: #444;
+  }
+
+  .positionRow > td.expiryRate:before {
+    content: 'Expiry rate: ';
+    font-weight: bold;
+    color: #444;
+  }
+
+  .positionRow > td.startRate:before {
+    content: 'Start rate: ';
+    font-weight: bold;
+    color: #444;
+  }
+
+  .positionRow > td.prediction:before {
+    content: 'Prediction: ';
+    font-weight: bold;
+    color: #444;
+  }
+
+  .positionRow .payout:before {
+    content: 'Payout: ';
+    font-weight: bold;
+    color: #444;
+  }
+
+  .zoneContainer_positions .order .positionId,
+  .zoneContainer_positions .position .positionId,
+  .zoneContainer_positions .order .investment,
+  .zoneContainer_positions .order .prediction,
+  .zoneContainer_positions .position .investment,
+  .zoneContainer_positions .position .prediction {
+    font-size: 100% !important;
+  }
+
+  .zoneContainer_positions .orderRow > td .logo,
+  .zoneContainer_positions .positionRow > td .logo {
+    width: auto !important;
+  }
+
+  .zoneContainer_positions .zoneContainer_positions_open .position.forexPosition .positionChartHolder {
+    float: none !important;
+    margin: 0 auto !important;
+  }
+
+  .zoneContainer_positions .positionsFilter input,
+  .zoneContainer_bankingHistory .filter input {
+    width: 100% !important;
+  }
+
+  .chzn-container,
+  .chzn-drop,
+  .chzn-search input {
+    width: 100% !important;
+  }
+}
+
+.zoneContainer_positions .positionsFilter {
+  height: auto !important;
+}
+
+.chzn-container,
+.chzn-drop,
+input.hasDatepicker {
+  min-width: 230px !important;
+}
+
+.chzn-search input {
+  width: 100% !important;
+}
+
+.zoneContainer_bankingHistory table.entitiesContainer {
+  width: 98% !important;
+  margin: 0 auto !important;
+}
+
+.zoneContainer_positions .positionsFilter label {
+  display: block;
+  margin: 5px 0 !important;
+}
+
+.zoneContainer_bankingHistory table.entitiesContainer th {
+  border: none !important;
+}
+
+.zoneContainer_bankingHistory .filter label {
+  display: block;
+  margin: 5px 0 0 !important;
+}
+
+.zoneContainer_positions .positionsFilter,
+.zoneContainer_bankingHistory .filter {
+  line-height: initial !important;
+  padding: 3px 0 15px 2px !important;
+  border-bottom: 1px solid #c4bebe !important;
+}
+
+.zoneContainer_bankingHistory .filter {
+  padding: 3px 10px 15px 10px !important;
+}
+
+.zoneContainer_bankingHistory .filter .section {
+  padding: 0 !important;
+  float: none !important;
+}
+
+input.hasDatepicker {
+  background: #fff url(/images/icon_calen.png?fd81020ef3f88f82bcbf9cf5069c9e65) no-repeat right 10px center !important;
+}
+
+.chzn-container > a > span {
+  font-size: 14px !important;
+}
+
+.chzn-container .chzn-results .group-result {
+  font-size: 13px !important;
+  text-transform: capitalize !important;
+}
+
+.chzn-container .chzn-results .highlighted {
+  background: #38a4f4 !important;
+  color: #fff !important;
+}
+
+.selectedAsset img {
+  margin: 0 !important;
+}
+
+#positionProduct_ldo_open,
+#positionProduct_longTerm_open,
+#positionProduct_binary_open,
+#positionProduct_sixtySeconds_open,
+#positionProduct_oneTouch_open,
+#positionProduct_builder_open,
+#positionProduct_limits_open,
+#positionProduct_ldo_expired,
+#positionProduct_longTerm_expired,
+#positionProduct_binary_expired,
+#positionProduct_sixtySeconds_expired,
+#positionProduct_oneTouch_expired,
+#positionProduct_builder_expired,
+#positionProduct_limits_expired {
+  display: none !important;
+}
+
+.zoneContainer_positions .payoutEstimation .content {
+  font-size: 21px !important;
+}
+
+.zoneContainer_positions .payoutEstimation {
+  background: #2e2e2e !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #2e2e2e), to(#585858)) !important;
+  background: linear-gradient(to bottom, #2e2e2e 1%, #585858 100%) !important;
+}
+
+.zoneContainer_positions .payoutEstimation .content,
+.zoneContainer_positions .payoutEstimation .title {
+  color: #efefef !important;
+  font-weight: normal !important;
+}
+
+.spotPackageContainer .spotPagination {
+  max-width: 100% !important;
+  min-width: auto !important;
+  height: auto !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  float: none !important;
+}
+
+.spotPackageContainer .spotPagination .goToPage_field {
+  width: 35px !important;
+  margin-right: 5px !important;
+}
+
+.spotPagination button {
+  color: #fff !important;
+  background: #38a4f4 !important;
+  -webkit-border-radius: .25rem;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  font-weight: 700;
+}
+
+.spotPagination input,
+.spotPagination select {
+  border: 1px solid #c4bebe !important;
+  border-radius: 3px;
+  height: 24px !important;
+  padding: 0 3px !important;
+}
+
+.spotPagination input:focus,
+.spotPagination select:focus {
+  border: 1px solid #38a4f4 !important;
+}
+
+#spotPackageContainer_myAccount .plainForm {
+  margin: 0 10px 10px;
+}
+
+.spotPackageContainer .plainForm td.propName {
+  width: 100% !important;
+  padding: 0 !important;
+}
+
+.inputTd input {
+  height: auto !important;
+  font-size: 15px !important;
+  min-width: 95% !important;
+  width: 95% !important;
+}
+
+.btnChangePassword {
+  background: orange !important;
+  color: white !important;
+  font-weight: 300 !important;
+  border-radius: 5px;
+}
+
+.accountSettingsTitle {
+  padding-left: 10px !important;
+}
+
+.spotPackageContainer .plainForm td.propName {
+  color: #999999 !important;
+  width: 110px !important;
+  padding-left: 10px !important;
+}
+
+#spotPackageContainer_myAccount .personalDetailsContainer .plainForm {
+  max-width: 430px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.submitTd input {
+  width: 80% !important;
+  height: auto !important;
+  line-height: initial !important;
+  display: inline-block !important;
+  margin: 15px auto 10px !important;
+  font-weight: 300 !important;
+  background: #38a4f4 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.userInfo {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 100;
+  margin-right: 10px;
+}
+
+.mobileUserInfo {
+  color: #fff;
+  font-size: 14px;
+  position: fixed;
+  min-height: 250px;
+  width: 65%;
+  left: -65%;
+  top: 40%;
+  z-index: 9999;
+  background-color: rgba(18, 18, 18, 0.9);
+  text-align: center;
+  padding: 30px 0;
+  border-radius: 0 10px 10px 0;
+  -webkit-transition: left 350ms ease-out;
+  transition: left 350ms ease-out;
+}
+
+.mobileUserInfo.opened {
+  left: 0;
+}
+
+.mobileUserInfo .handle {
+  display: none;
+  position: absolute;
+  width: 31px;
+  height: 130px;
+  top: calc(50% - 65px);
+  right: -30px;
+  background-color: rgba(18, 18, 18, 0.9);
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  border-color: #5d5d5d;
+  border-width: 2px 2px 2px 0;
+  border-style: solid;
+}
+
+.mobileUserInfo .hamburger {
+  padding: 8px 5px;
+}
+
+.mobileUserInfo .hamburger-box {
+  width: 17px;
+  height: 18px;
+  display: block;
+}
+
+.mobileUserInfo .hamburger-inner,
+.mobileUserInfo .hamburger-inner::before,
+.mobileUserInfo .hamburger-inner::after {
+  width: 17px;
+  height: 3px;
+}
+
+.mobileUserInfo .hamburger-inner::before {
+  top: -7px;
+}
+
+.mobileUserInfo .hamburger-inner::after {
+  bottom: -7px;
+}
+
+.mobileUserInfo .handle .userBalance {
+  font-weight: bold;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transform-origin: 50% 170%;
+  transform-origin: 50% 170%;
+  width: 80px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.mobileUserInfo .hamburger-inner,
+.mobileUserInfo .hamburger-inner::before,
+.mobileUserInfo .hamburger-inner::after {
+  background-color: #fff;
+}
+
+.mobileUserInfo .userBalanceWrap,
+.mobileUserInfo .userDeposit {
+  margin: 10px 0;
+}
+
+.mobileUserInfo .userBalance {
+  color: #028300;
+}
+
+.mobileUserInfo .userAvatar {
+  margin: 10px auto;
+  height: 70px;
+  width: 62px;
+  background: url("/images/userpic.png") no-repeat;
+  background-size: contain;
+}
+
+#wprmenu_bar {
+  height: 44px;
+}
+
+#bad-resolution {
+  display: none;
+}
+
+@media (max-width: 990px) {
+  .headerUserInfo {
+    display: none;
+  }
+
+  .mobileUserInfo .handle {
+    display: block;
+  }
+
+  .navigation,
+  .logo {
+    display: none;
+  }
+
+  .menu_title {
+    text-align: center !important;
+  }
+
+  .header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .logout-block {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999999;
+  }
+
+  .logout-block .button {
+    padding: 5px 15px 5px 15px !important;
+    margin: 5px;
+    font-weight: 100 !important;
+  }
+
+  .section.header .general {
+    height: 55px;
+  }
+}
+
+@media (min-width: 10px) and (max-width: 319px) {
+  #bad-resolution {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #13151A;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    z-index: 999999;
+    padding: 50px;
+  }
+
+  body {
+    position: absolute;
+    width: 100%;
+    overflow-y: hidden;
+    top: 0;
+    bottom: 0;
+  }
+}
+
+.zoneContainer_positions .positionsFilter .dateField {
+  width: auto;
+}
+
+.ui-dialog {
+  width: 100% !important;
+  max-width: 100%;
+  left: 0 !important;
+  padding: 10px !important;
+}
+
+.spotPackage_popup .positionsDetails {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.spotPackage_popup .positionsDetails,
+.spotPackage_popup .popupBottom,
+.spotPackage_popup .popupBody {
+  background: #fff !important;
+}
+
+.spotPackage_popup {
+  -webkit-box-shadow: 0 0 15px;
+          box-shadow: 0 0 15px;
+}
+
+.popupDetails .positionsDetail {
+  padding: 0 10px !important;
+  width: 50% !important;
+  margin: 0 !important;
+}
+
+.popupDetails .positionsDetail .label,
+.popupDetails .positionsDetail .content {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.spotPackage_popup .wizardContent .title {
+  padding: 15px !important;
+}
+
+.spotPackage_popup .popupDetails {
+  padding: 0 !important;
+}
+
+.spotPackage_popup .wizardContent .description {
+  padding: 10px 15px !important;
+}
+
+.spotPackage_popup .wizardContent .applyApprove,
+.spotPackage_popup .wizardContent .approvalApprove,
+.spotPackage_popup .wizardContent .applyCancel .spotPackage_popup .wizardPositionCanceled button,
+.spotPackage_popup .wizardServerError button,
+.spotPackage_popup .wizardContent .applyCancel,
+.spotPackage_popup .wizardContent .approvalCancel {
+  float: none !important;
+  margin: 10px auto !important;
+  width: auto !important;
+  padding: 10px 30px !important;
+  line-height: initial !important;
+}
+
+.spotPackage_popup .popupHeader {
+  height: auto !important;
+  line-height: initial !important;
+  text-indent: 0 !important;
+  background: #545454 !important;
+  padding: 10px !important;
+}
+
+.spotPackage_popup .popupTitle {
+  color: #fff !important;
+  font-size: 18px !important;
+  text-indent: 0 !important;
+  padding: 0 !important;
+}
+
+.zoneContainer_positions .order .orderTools,
+.zoneContainer_positions .position .positionTools {
+  width: auto !important;
+}
+
+.spotPackage_popup .closeIconError,
+.spotPackage_popup .closeIconLogin,
+.spotPackage_popup .closeIcon {
+  top: 10px !important;
+  right: 10px !important;
+}
+
+.spotPackage_popup .popupDetails {
+  background: #fff !important;
+}
+
+#c.spotPackage_popup {
+  max-width: 500px !important;
+  margin: 0 auto !important;
+}
+
+.popupDetails.transactonDetails .list {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-wrap: wrap !important;
+      flex-wrap: wrap !important;
+}
+
+.popupDetails.transactonDetails .list .transactonDetail {
+  width: 50% !important;
+  margin: 0 !important;
+  padding: 0 10px !important;
+}
+
+.popupDetails.transactonDetails .list .transactonDetail .label,
+.popupDetails.transactonDetails .list .transactonDetail .content {
+  margin: 0 !important;
+}
+
+@media (max-width: 500px) {
+  .popupDetails.transactonDetails .list .transactonDetail {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .zoneContainer_bankingHistory .entitiesContainer {
+    width: 100% !important;
+  }
+
+  .zoneContainer_bankingHistory table.entitiesContainer thead {
+    display: none;
+  }
+
+  .zoneContainer_bankingHistory .withdrawalRow,
+  .zoneContainer_bankingHistory .depositRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 1px solid #ccc !important;
+    padding: 5px 0 !important;
+  }
+
+  .zoneContainer_bankingHistory .withdrawalRow td,
+  .zoneContainer_bankingHistory .depositRow td {
+    height: auto !important;
+    max-width: 100% !important;
+    width: 33% !important;
+    position: relative;
+    background: #fff !important;
+  }
+
+  .zoneContainer_bankingHistory .entitiesContainer tbody td:before {
+    font-weight: bold;
+    color: #444;
+  }
+
+  .zoneContainer_bankingHistory .entitiesContainer tbody td.id:before {
+    content: 'ID: ';
+  }
+
+  .zoneContainer_bankingHistory .entitiesContainer tbody td.status:before {
+    content: 'Status: ';
+  }
+
+  .zoneContainer_bankingHistory .entitiesContainer tbody td.date:before {
+    content: 'Date: ';
+  }
+
+  .zoneContainer_bankingHistory .entitiesContainer tbody td.amount:before {
+    content: 'Amount: ';
+  }
+
+  .zoneContainer_bankingHistory .entitiesContainer tbody td.type:before {
+    content: 'Type: ';
+  }
+
+  .zoneContainer_bankingHistory .entitiesContainer tbody td.method:before {
+    content: 'Method: ';
+  }
+
+  .zoneContainer_bankingHistory .entitiesContainer tbody td.confirmDate:before {
+    content: 'Confirm date: ';
+  }
+}
+
+@media (max-width: 450px) {
+  .zoneContainer_bankingHistory .withdrawalRow td,
+  .zoneContainer_bankingHistory .depositRow td {
+    width: 100% !important;
+  }
+}
+
+.spotPackage_popup .popupTitle {
+  text-indent: 0 !important;
+}
+
+.popupForm input[type='text'],
+.popupForm input[type='password'] {
+  width: 100% !important;
+  background: #fff !important;
+  height: auto !important;
+  padding: 7px 3px !important;
+  line-height: initial !important;
+  border-radius: 3px !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.popupForm input[type='text']:focus,
+.popupForm input[type='password']:focus {
+  border-color: #38a4f4 !important;
+}
+
+.popupForm .submit,
+.popupForm .loginPopupSubmit {
+  text-shadow: none !important;
+  background: #38a4f4 !important;
+  padding: 10px 25px !important;
+  height: auto !important;
+  width: auto !important;
+  margin: 30px auto 0 !important;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.popupForm.loginForm {
+  padding: 20px 0 !important;
+}
+
+.mediumPopup .spotPackage_popup .closeIcon {
+  top: 6px !important;
+  right: 6px !important;
+}
+
+.spotPackage_popup .loginPopupForgotPassword {
+  float: none !important;
+  margin: 0 !important;
+}
+
+.changePasswordContainer {
+  width: 100% !important;
+  max-width: 315px !important;
+  margin: 0 auto !important;
+}
+
+#rolloverPopupRegular .chzn-container {
+  float: none !important;
+  margin: 0 !important;
+}
+
+#rolloverPopupRegular #newExpiryContainer {
+  background: #444 !important;
+  height: auto !important;
+  width: 100% !important;
+  padding: 10px !important;
+  margin: 0 auto !important;
+}
+
+#rolloverPopupRegular #newExpiryContainer .label {
+  float: none !important;
+  margin-left: 0 !important;
+  min-width: auto !important;
+  line-height: 25px !important;
+}
+
+#rolloverWizard .wizardContent {
+  padding: 0 10px;
+}
+
+#transactonDetailsPopupMyAccount,
+#platformMessageDialog,
+#platformMessageDialogConfirm,
+#insufficientFundsDialog,
+#platformAuthDialog,
+#platformLoginDialog {
+  width: 100% !important;
+  max-width: 400px !important;
+  margin: 0 auto !important;
+}
+
+#doubleUpPopupRegular {
+  width: 100% !important;
+  max-width: 515px !important;
+  margin: 0 auto !important;
+}
+
+#buyMeOutPopupRegular,
+#rolloverPopupRegular {
+  width: 100% !important;
+  max-width: 500px !important;
+  margin: 0 auto !important;
+}
+
+@media (min-width: 320px) and (max-width: 990px) {
+  .positionsDetails .logo {
+    display: block !important;
+  }
+}
+
+@media (max-width: 512px) {
+  .nav-tabs li.nav-item {
+    display: block;
+    width: 100%;
+  }
+
+  .nav-tabs .nav-item.show .nav-link,
+  .nav-tabs .nav-link.active {
+    border-bottom-color: #ddd;
+    border-bottom-right-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+  }
+
+  .nav-tabs .nav-link:focus,
+  .nav-tabs .nav-link:hover {
+    border-color: #e9ecef;
+  }
+
+  .nav-tabs {
+    border: none;
+  }
+}
+
+.passwordAuthContainer .formTitle,
+.openAccountFormContainer .formTitle,
+.forgotPasswordContainer .formTitle {
+  display: none;
+}
+
+.spotPackageContainer .plainForm input[type="submit"] {
+  padding: 10px;
+}
+
+.forgotPasswordSubmit {
+  margin: 10px 0 !important;
+  background: #38a4f4 !important;
+}
+
+.section.page-content img {
+  margin: 0 !important;
+}
+
+.captchaTool {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.spotPackageContainer .plainForm .captchaTool .refresh {
+  border-radius: 4px !important;
+}
+
+.captchaCode {
+  margin-bottom: 10px !important;
+}
+
+.chzn-drop {
+  min-width: 100% !important;
+  width: 100% !important;
+}
+
+.chzn-container,
+input.hasDatepicker {
+  min-width: 95% !important;
+  width: 95% !important;
+}
+
+.spotPackageContainer .plainForm .inputTd .phoneTdContainer {
+  width: 98% !important;
+}
+
+.spotPackageContainer #openAccountForm .captcha td {
+  padding-top: 0 !important;
+}
+
+.acceptTermsTr label {
+  padding-top: 20px !important;
+  font-size: 14px;
+}
+
+.acceptTerms {
+  margin-bottom: 4px !important;
+  margin-right: 5px !important;
+}
+
+.forgotPasswordSubmit {
+  padding: 0 !important;
+  background: #38a4f4;
+}
+
+.captchaTr td.desc {
+  vertical-align: top;
+  padding-top: 0 !important;
+}
+
